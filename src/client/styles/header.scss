@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+header {
+    //display: flex;
+    //justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    
+    .header-logo {
+        width: auto;
+        font-family: 'Audiowide', cursive;
+    }
+    .cap-letter {
+        font-size: 40px;
+        font-weight: 700;
+        color: black;
+    }
+    .small-letter {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px 5px 0px -5px;
+        letter-spacing: 1px;
+    }
+}

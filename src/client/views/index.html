@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Natural Language Processing</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-logo">
+                <p>
+                    <span class="cap-letter">N</span> <span class="small-letter">atural</span>
+                    <span class="cap-letter">L</span> <span class="small-letter">anguage</span>
+                    <span class="cap-letter">P</span> <span class="small-letter">rocessing</span>
+                </p>
+            </div>
+
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="name" type="text" name="input" value="" placeholder="Name">
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            </section>
+            
+            <section>
+                <strong>Form Results:</strong>
+                <div id="results"></div>
+            </section>
+
+            <!-- Form to solve NLP context -->
+            <section>
+                <form class="" onsubmit="return Client.nlpText(event)">
+                    <textarea id="textToCheck" type="textarea" name="inputNLP" placeholder="Type or paste your text here."></textarea>
+                    <input type="submit" value="submit" onclick="return Client.nlpText(event)" onsubmit="return Client.nlpText(event)">
+                </form>
+            </section>          
+
+            <section>
+                <strong>How your text sounds:</strong>
+                <div id="resultsNLP"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Developed by Allan Viveiros</p>
+        </footer>
+
+<!--         <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script> -->
+
+    </body>
+</html>

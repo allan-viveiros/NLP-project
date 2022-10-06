@@ -1,0 +1,40 @@
+$primary-color: #003566;
+$text-color: #ffc300;
+
+body {
+    background: $primary-color;
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+main {
+    flex: 2;
+
+    p span {
+        color: #000;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#resultsNLP {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+
+.nlp-response {
+    color: #e5e5e5;
+}
+
+
